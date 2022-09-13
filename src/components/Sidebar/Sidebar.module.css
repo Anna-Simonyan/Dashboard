@@ -1,0 +1,149 @@
+.sidebarContainer{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.divDashboardContainer{
+    width: 280px;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    top: 66px;
+}
+.divDashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.divDashboard1{
+    width: 264px;
+
+
+display: flex;
+align-items: center;
+padding: 14px;
+}
+.divDashboard2{
+    width: 264px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+ 
+}
+
+
+.divDas1{
+    width: 264px;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+background-color: white;
+    color: black;
+    transition: .5s ease all;
+    transition: all 0.2s ease;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms
+
+
+}
+.divDas1>ul{
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34px;
+    list-style-type: none;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+
+
+list-style-type: none;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.divDas{
+    width: 264px;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+    display: none;
+    position: absolute;
+    background: white;
+    color: black;
+    transition: .5s ease all;
+    transition: .10 ease-in-out;
+    transition: all 0.2s ease;
+}
+
+
+.active{
+    width: 264px;
+text-decoration: none;
+    background: #2B014C;
+    border-radius: 0px 6px 6px 0px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+.arrowDiv{
+    display: flex;
+    position: relative;
+    height: 0px;
+    right: -100px;
+    bottom: 40px; 
+    
+}
+
+.img{
+    position: relative;
+    right: 22px;
+    bottom: 7px;
+}
+
+
+.active1{
+    width: 264px;
+    background:white;
+    border-radius: 0px 6px 6px 0px;
+    color: #2B014C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+  
+
+}
+.active1:hover{
+    background-color: #2B014C;
+    color: white;
+}
+.divIcon{
+    margin-right: 0.5em;
+    margin-left: 1em;
+}
+.a{
+    color: #2B014C;
+    text-decoration: none;
+}
+.aa{
+    color: rgba(0, 0, 0, 0.7); 
+    text-decoration: none;
+}

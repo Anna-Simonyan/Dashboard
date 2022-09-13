@@ -1,0 +1,205 @@
+.filingsDivContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainContainerDiv{
+    width: 60%;
+ position: relative;
+ left: 10%;
+ top: 150px;
+ margin: auto;
+
+}
+.divScan{
+    display: flex;
+}
+.divScan1{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.active{
+    width: 45%;
+    height: 52px;
+   color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    background: #2B014C;
+    border-radius: 10px 0px 0px 0px; 
+    text-decoration: none;
+    text-align: center;
+}
+.active1{
+    width: 45%;
+    height: 52px;
+   color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #E6EAF9;
+border-radius: 0px 10px 0px 0px;
+text-decoration: none;
+text-align: center;
+}
+.divScan2{
+    width: 100%;
+    height: 52px;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+border-radius: 0px 10px 0px 0px;
+}
+.divScan1>p{
+    margin: auto;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+}
+.divScan2>p{
+    margin: auto;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+}
+
+.divConfigur{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 126px;
+}
+.divConfigurP{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+.divConfigurP1{
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+text-align: center;
+
+color: #6F6F6F;
+}
+.divConfigur1{
+    width: 64%;
+}
+.divImg{
+    margin-top: 30px;
+}
+.divImg1{
+    width: 64%;
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+
+}
+.divButton{
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.button{
+  
+    height: 48px;
+    color: white;
+    background: #F4B42A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 105px;
+    
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button1{
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 105px;
+    
+    border: none;
+   color: #8C8C8C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.registerDivInput>input{
+    width: 520px;
+    
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+    outline: none;
+display: flex;
+padding: 15px;
+}
+.registerDivInput{
+   
+    margin-bottom: 1rem!important;
+    font-size: calc(12px + .3vw);
+    border-radius: 10px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: transparent;
+  
+}
+.registerDivInput11>input{
+    width: 520px;
+    
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+    outline: none;
+display: flex;
+padding: 15px;   
+}
+.registerDivInput11{
+    margin-bottom: 1rem!important;
+    font-size: calc(12px + .3vw);
+    border-radius: 10px;
+    border: 1px solid #BFBFBF;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: transparent;
+  
+}

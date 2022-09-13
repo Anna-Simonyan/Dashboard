@@ -1,0 +1,258 @@
+@import "../../Common/colors.scss";
+
+.filingsDivContainer{
+    margin-top: 114px;
+    margin-left: 26%;
+}
+
+.divFilings{
+    
+    display: flex;
+    font-family: $myFont;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+align-items: center;
+color: #6F6F6F;
+}
+.divFilings>img{
+    margin-right: 1em;
+    width: 13.33px;
+    height: 12.96px;
+}
+.divBassic{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    margin-top: 120px;
+}
+
+.divBassic>div{
+    width: 20rem;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px #ffd4f1;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    border-radius: 10px;
+   
+}
+.divBassicP{
+    font-family: $myFont-1;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #6F6F6F;
+}
+.divUser{
+    font-family: $myFont-1;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+margin-top: 30px;
+}
+.divFree{
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: $acolor;
+    margin-top: 30px;
+
+}
+.span{
+    width: 110px;
+height: 33px;
+left: 1195px;
+top: 235px;
+
+background: #E7FFE3;
+border-radius: 50px;
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #47B621;
+
+}
+.divPlus{
+    display: flex;
+    align-items: center;
+  
+    text-align: center;
+}
+.divFree1{
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: $acolor;  
+    margin-top: 16px;
+}
+.divFree>span{
+    font-family: $myFont-1;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: rgba(43, 1, 76, 0.4);
+margin-left: 0.5em;
+
+}
+.divCarrent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 76px;
+    gap: 10px;
+    background: rgba(219, 216, 216, 0.5);
+    border-radius: 10px;
+    color: rgba(145, 142, 142, 0.5); 
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 30px;
+
+   
+}
+.divCarrent1{
+    border: 1px solid rgba(111, 111, 111, 0.3);
+    margin-top: 40px;
+}
+.divCarrent11{
+    border: 1px solid rgba(111, 111, 111, 0.3);
+    margin-top: 41px;
+}
+.divPay{
+    font-family: $myFont-1;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+.divPay1{
+    font-family: $myFont-1;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #6F6F6F;
+margin-top: 7px;
+}
+.divPayContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.buttonTeams{
+    
+    height: 48px;
+    color: white;
+    background: #F4B42A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 110px;
+    gap: 10px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+}
+.divFreeTin{
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+
+}
+.divFreeTinP{
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.divFreeTinP1{
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #6F6F6F;
+}
+.divBorder{
+    width: 90%;
+    border: 1px solid rgba(111, 111, 111, 0.3);
+    margin-top: 30px;
+}
+.divAlwaysTitle{
+    font-family: $myFont;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+margin-top: 30px;
+color: #000000;
+}
+.divAlways{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.divAlways1{
+    width: 30%;
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 0.002em;
+color: #000000;
+}
+.divAlways2{
+    width: 60%;
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.002em;
+color: #6F6F6F;
+}
+

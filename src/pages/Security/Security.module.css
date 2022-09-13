@@ -1,0 +1,63 @@
+.mainContainer{
+    width: 100%;
+    
+}
+.aboutContainer{
+   
+width: 60%;
+box-shadow: 2px 2px 10px rgba(210, 209, 223, 0.3);
+border-radius: 10px;
+position: relative;
+left: 10%;
+top: 166px;
+margin: auto;
+
+
+}
+.aboutContainer>p{
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+color: #000000;
+}
+.divAut{
+    
+    background: #FFFFFF;
+box-shadow: 2px 2px 10px rgba(210, 209, 223, 0.3);
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.but{
+    color: white;
+    background: #F4B42A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 10px;
+    border: none;
+    font-size: 16px;
+    
+ }
+ .divAutP{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+ }
+ .divAutP1{
+    font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #6F6F6F;
+ }

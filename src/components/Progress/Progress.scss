@@ -1,0 +1,81 @@
+@import "../../Common/colors.scss";
+
+@import "../../Common/mixins.scss";
+
+.divProgressContainer{
+  @include flex ;
+}
+.divReady1Progress{
+    width: 30%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(210, 209, 223, 0.3);
+    border-radius: 10px;
+    height: 260px;   
+    button{
+        width: 30%;
+            height: 48px;
+            color: white;
+            background: $primary-color;
+            border-radius: 10px;
+            gap: 10px;
+            border: none;
+            position: absolute;
+            bottom: 0;
+            font-family: $myFont;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+  
+}
+.divReadyP1Progress{
+    font-family: $myFont;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: $textcolor;
+}
+.divReadyPProgress{
+    font-family:$myFont-1  ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $textcolor1;
+}
+
+.divShowSelectProgress{
+        width: 30%;
+        background: rgba(111, 111, 111, 0.5);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 0px;
+        gap: 10px;
+        margin-top: 9px;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.4;
+        div{
+    font-family: $myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: $textcolor;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+        }
+        
+}
+
+.divReadyButtonProgres:hover, 
+.divReadyButtonProgres:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 2px 2px 2px 2px  #F4B42A; }
+}

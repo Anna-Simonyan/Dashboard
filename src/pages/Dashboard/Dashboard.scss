@@ -1,0 +1,90 @@
+
+@import "../../Common/colors.scss";
+@import "../../Common/mixins.scss";
+
+
+.mainContainerDash{
+    width: 100%;
+   @include flex;
+}
+.mainContainerDivDash{
+    position: relative;
+    left: 13%;
+    top: 107px;
+    margin: auto;
+}
+.pDasboardDash{
+    font-family: $myFont;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color:$textcolor;
+}
+
+.divMainDash{
+   @include flex;
+    padding: 10px;
+}
+
+.divMain1Dash{
+    width: 27%;
+    height: 126px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 4px rgb(96 147 231 / 0.12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.divMain1Dash:hover{
+    box-shadow: 0px 0px 9px 4px rgb(96 147 231 / 22%);
+}
+.divVectorDash{
+    display: flex;
+    align-items: center;
+}
+
+.divVectorDash{
+    span{
+        width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #607ACB;
+    display: flex;
+    margin-right: 0.5em;
+    }
+    img{
+        margin: auto;
+    }
+}
+
+.divProgressDash{
+    font-family: $myFont-1;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+color: $textcolor1;
+
+}
+
+.divMainPDash{
+    font-family: $myFont;
+font-weight: 700;
+font-size: 42px;
+line-height: 53px;
+color:$textcolor;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+
+
+.divReadyDash{
+    font-family: $myFont;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+margin-top: 36px;
+color: $textcolor;
+}

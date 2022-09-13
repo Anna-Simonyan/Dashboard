@@ -1,0 +1,248 @@
+@import "../../Common/colors.scss";
+
+.filingsDivContainer1{
+    margin-top: 114px;
+    margin-left: 26%;
+}
+
+.divFilings{
+    
+    display: flex;
+    font-family: $myFont;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+align-items: center;
+color: #6F6F6F;
+}
+.divFilings>img{
+    margin-right: 1em;
+    width: 13.33px;
+    height: 12.96px;
+}
+.divCheckout{
+    display: flex;
+    margin-top: 10px;
+}
+.divCheckoutText{
+    font-family: $myFont;
+
+font-weight: 700;
+font-size: 30px;
+line-height: 86px;
+color: #000000;
+
+}
+.divTextP{
+    width: 65%;
+}
+.divTextP{
+    .divText{
+        font-family: "Questrial";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6F6F6F;
+    }
+}
+.divBillingP{
+    font-family: $myFont;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+margin-top: 58px;
+color:$textcolor ;
+
+}
+.divInput{
+ 
+    display: flex;
+    flex-wrap: wrap;
+}
+.divRadio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 247px;
+  
+height: 44px;
+border: 1px solid #BFBFBF;
+border-radius: 10px;
+}
+.divRadio1{
+
+    width: 265px;
+    height: 44px;
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+
+}
+
+
+
+.imgV{
+    width: 12px;
+    position: relative;
+    bottom: 1px;
+    left: 4px;
+}
+.imgV1{
+    width: 30px;
+}
+.divCircl{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #EB001B;
+    
+
+}
+.divCircl1{
+    display: flex;
+    flex-direction: column;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #F79E1B;
+    position: relative;
+    right: 0.3em;
+    z-index: 1;
+}
+.divMasterCard{
+    margin-top: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: -20px;
+}
+.fa-paypal{
+color: #232C65;
+}
+.divSummary{
+height: 700px;
+padding: 4px;
+background: #FFFFFF;
+border-radius: 10px;
+background: linear-gradient(91.02deg, rgba(197, 146, 237, 0.8) -5.88%, rgba(253, 219, 146, 0.8) 105.89%);
+border-radius: 12px;
+margin-right: 499px;
+margin-top: 105px;
+}
+.divSummary1{
+    width: 350px;
+    height: 660px;
+padding: 20px;
+    background: #FFFFFF;
+border-radius: 10px;
+}
+.divSummary1{
+    p{
+        font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+    }
+}
+.divSummary1{
+    div{
+        display: flex;
+        justify-content: space-between;
+        color: #6F6F6F;
+       font-size: 15px;
+       line-height: 30px;
+    }
+   
+}
+.divTotal{
+    margin-top: 10px;
+}
+.divBorder1{
+ 
+    border: 1px solid rgb(207, 203, 203);
+}
+.divP{
+    margin-top: 130px;
+}
+
+.divP{
+    p{
+        font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #6F6F6F;
+    }
+}
+.divP1{
+    p{
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #6F6F6F;
+    }
+    span{
+        color: #0144F1;
+    }
+}
+.but{
+    
+    height: 48px;
+    color: white;
+    background: #F4B42A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 140px;
+    border: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-top: 30px;
+}
+
+.divClose{
+    display: flex;
+    justify-content: flex-end;
+}
+.divCircle{
+    align-items: center;
+}
+.divCircle{
+    width: 61px;
+    height: 61px;
+    background-color:  #FAB60C;
+   
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.divCircleBorder{
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    border: 1px solid #FAB60C;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}

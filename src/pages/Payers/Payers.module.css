@@ -1,0 +1,84 @@
+.payersDivContainer{
+    width: 100%;
+   
+}
+.filingsDivContainer{
+    width: 100%;
+    height: 100vh;
+}
+.mainContainerDiv{
+    width: 60%;
+ position: relative;
+ left: 10%;
+ top: 107px;
+
+ margin: auto;
+
+}
+.divFilings{
+    
+    display: flex;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+align-items: center;
+color: #6F6F6F;
+}
+.divFilings>img{
+    margin-right: 1em;
+    width: 13.33px;
+    height: 12.96px;
+}
+.divProgress{
+   
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 85px;
+color: #000000;
+}
+.divProgress1{
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+color: #000000;
+}
+.divProgress2{
+   
+height: 20px;
+font-family: 'Questrial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #6F6F6F;
+}
+.divBut{
+   display: flex;
+   justify-content: flex-end;
+margin-top: 50px;
+align-items: center;
+}
+.but{
+    color: white;
+    background: #F4B42A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 10px;
+    border: none;
+    font-size: 16px;
+
+ }
+ .divTable{
+    margin-top: 50px;
+ }
